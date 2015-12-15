@@ -1,7 +1,6 @@
 # DataStructures-Implementation
 
-## Completed (but not perfect) Programs
-- adjacency_list.cpp
+## Work in progress...
 - adjacency_matrix.cpp
 - binary_heap.cpp
 - dijkstra.cpp
@@ -10,4 +9,6 @@
 - unweighted_shortest_paths.cpp
 - weighted_shorted_paths.cpp
 
-## Other files are a work in progress...
+## Completed (but not perfect) Programs
+- adjacency_list.cpp
+
