@@ -1,8 +1,18 @@
 /*
 
-Code written by Vidyadhar Thatte
-
+Code created by Vidyadhar Thatte
 filename: binary_heap.cpp
+
+Some information about heaps: 
+A heap is implemented as a heap and an array.
+
+TREE
+Structure: 
+- Is built: Top to Bottom, Left to Right
+
+Property:
+Max heap: Parent >= Child
+Min heap: Parent <= Child
 
 */
 
@@ -12,22 +22,12 @@ filename: binary_heap.cpp
 using namespace std;
 
 template <class Comparable>
-class BinaryHeap{
+class BinaryHeap{ // Implementing a Min Heap
 private:
-	int theSize;  // Number of elements in heap
-    vector<Comparable> array;    // The heap array
-    void buildHeap();
-    void percolateDown( int hole );
 public:
 	// Constructors
-	BinaryHeap();
-	BinaryHeap( const vector<Comparable> & v );
 
-	bool isEmpty( ) const;
-    const Comparable & findMin( ) const;
-    void insert( const Comparable & x );
-    void insert( Comparable && x );
-    void deleteMin( );
+    // Heap methods
 };
 
 int main(){
